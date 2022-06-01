@@ -2,51 +2,83 @@
   "restaurants": [
     {
       "id": 1,
-      "name": "restaurant 1",
-      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-      "votes": 0
+      "name": "Four and Water ",
+      "image": "",
+      "Description": "flour + water serves a daily changing menu of house-made pasta exposing the regional variety found throughout Italy, Neapolitan-style pizzas prepared in a wood-fired oven and carefully crafted dishes utilizing seasonal ingredients.",
+      "like": 26,
+      "dislike": 8,
+      "number": 4158267000,
+      "email": "info@flourandwater.com"
     },
     {
       "id": 2,
-      "name": "restaurant 2",
-      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
-      "votes": 0
+      "name": "Padrecito",
+      "image": "",
+      "Description": "Padrecito is a seasonal, and we think sensational, Mexican restaurant in the heart of San Francisco’s Cole Valley Neighborhood.",
+      "likes": 14,
+      "dislike": 4,
+      "number": 4157425505,
+      "email": "padre@padrecitosf.com"
     },
     {
       "id": 3,
-      "name": "restaurant 3",
-      "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
-      "votes": 0
+      "name": "La Corneta Taqueria",
+      "image": "",
+      "Description": "La Corneta offers a wide variety of fresh and delicious Mexican food for almost any occasion or taste. We provide a clean and pleasant atmosphere; rich colors and hand painted murals adorn our walls to surround you while you enjoy and savor your meal. We also offer delivery and catering for parties and events. We invite you to come by and visit us at any of our two San Francisco locations located in the Glen Park Village or in the heart of the Mission. Visit us at our San Mateo locations in Burlingame and San Carlos.",
+      "likes": 50,
+      "dislike": 40,
+      "number": 4156437001,
+      "email": "info@lacorneta.com"
     },
     {
       "id": 4,
-      "name": "restaurant 4",
-      "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
-      "votes": 0
+      "name": "Starbelly",
+      "image": "",
+      "Description": "Starbelly is a casual and friendly neighborhood restaurant in San Francisco’s lively Castro District. With a menu of forward-thinking California comfort food, supplemented by seasonal craft cocktails, beer and wine, Starbelly offers something delicious for everyone.",
+      "likes": 29,
+      "dislike": 36,
+      "number": 4152527500,
+      "email": "info@starbellysf.com"
     },
     {
       "id": 5,
-      "name": "restaurant 5",
-      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
-      "votes": 0
-    }
+      "name": "Zazie",
+      "image": "",
+      "Description": "Zazie was opened in Cole Valley in 1992 by Catherine Opoix, who named her neighborhood bistro after the main character in Louis Malle's film Zazie dans le Métro. Jen Piallat started as General Manager in 2000, eventually buying the restaurant from Catherine in 2005, and promoted longtime server Mario Rojas to General Manager and longtime brunch cook Francisco Romero to head chef.. Over the next few years, Jen developed a benefits program that is unparalleled in non-union restaurants, including fully funded health & dental insurance, a 401(k) retirement plan with employer match, paid family leave, and paid sick leave.",
+      "likes": 78,
+      "dislike": 23,
+      "number": 4155645332,
+      "email": "Megan@ZazieSF.com"
+    },
     {
       "id": 6,
-      "name": "restaurant 6",
-      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
-      "votes": 0
-    }
+      "name": "Nopalito",
+      "image": "",
+      "Description": "The story of Nopalito began long before our 2009 opening. It started in the small village of El Aguila in the coastal city of Catemaco in Veracruz, Mexico, where chef/owner Gonzalo Guzman first learned to cook from his mother Alicia. As the eldest of three, Gonzalo worked in the fields, learning to grow corn, beans, chiles and tomatoes, and preparing meals for his family. From a very young age he established a connection with the land and developed a deep appreciation for the ingredients, traditions and techniques of Mexican cooking. After leaving home at the age of 13, Gonzalo lived in Puebla and Mexico City before coming to San Francisco. 12 years and many restaurants later, Gonzalo met future partners Laurence Jossel, Allyson Jossel and Jeff Hanak and the dream of Nopalito took shape. Nopalito would combine traditional, from-scratch Mexican cooking with the vibrant, local ingredients of the Bay Area. The beverage program would center around tequila, mezcal and fresh aguas frescas, and the hospitality would emulate the warmth of Mexican culture. And on February 4, 2009, we first opened our doors.",
+      "likes": 50,
+      "dislike": 10,
+      "number": 4154370303,
+      "email": "hello@nopalitosf.com"
+    },
     {
       "id": 7,
-      "name": "restaurant 7",
-      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
-      "votes": 0
-    }
+      "name": "Ginza Sushi and Sake",
+      "image": "",
+      "Description": "Welcome to GINZA. We're located in Haight - Ashbury district in San Francisco. We broke the mold of traditional Japanese cuisine, best sushi, sake bar with an exciting and modern twist.",
+      "likes": 22,
+      "dislike": 12,
+      "number": 4157420552,
+      "email": "ginzasanfrancisco@gmail.com"
+    },
     {
       "id": 8,
-      "name": "restaurant 8",
-      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
-      "votes": 0
+      "name": "Beretta",
+      "image": "",
+      "Description": "One of the early pioneers in San Francisco’s popular Mission District neighborhood at Valencia Street and 23rd, Beretta has been a long-time industry favorite since opening in 2008. Dark, sexy and evocative, Beretta’s restaurant and bar are where to enjoy inventive cocktails, thin crust pizzas, and contemporary Italian comfort food that is always fresh, organic and seasonal whenever possible, and sourced from local farmers. Adored by the San Francisco community and visitors to our city, we offer something for everyone, and carry many vegetarian and vegan options.",
+      "likes": 44,
+      "dislike": 7,
+      "number": 4156951199,
+      "email": "beretta@gmail.com"
     }
   ]
 }
