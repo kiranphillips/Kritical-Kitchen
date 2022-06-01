@@ -1,7 +1,9 @@
 body {
-    background: turquoise;
-  }
-  .container{
+    background-image: url("https://thumbs.dreamstime.com/b/map-san-francisco-satellite-view-map-negative-usa-california-palaces-streets-53607806.jpg");
+    background-color: #cccccc;
+   }
+
+.container{
     display: flex;
   }
   .glass {
@@ -15,9 +17,20 @@ body {
         margin-right: auto;
         width: 100%;
 }
-#voting{
-        width: 300px;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-      }
+.Voting {
+    border: 1px solid black;
+    margin: 40px;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .thumbs {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
+
+
+
+
