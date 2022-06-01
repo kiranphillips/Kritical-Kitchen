@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritical Kitchen</title>
+</head>
+<body>
+
+<!--This DIV is for the top bar full of images -->
+<div id="Top_Nav_Bar">
+    <div class="container">
+        <div class="glass">
+          <img src="FlourandWater.png" alt="Flour and Water" style="width:400px" style="height:325px">
+        </div>
+        <div class="glass">
+          <img src="Padrecito.png" alt="Padrecito" style="width:400px" style="height:325px">
+        </div>
+        <div class="glass">
+            <img src="la-corneta-t.png" alt="La Corneta" style="width:400px" style="height:500px">
+        </div>
+        <div class="glass">
+            <img src="StarBelly.png" alt="StarBelly" style="width:400px" style="height:325px">
+        </div>
+    </div>
+</div>
+
+    <div id="city_pic">
+        <img src="san-francisco-hero.png" alt="Picture of San Francisco" style="width: 50%;">
+    </div>
+
+    <div id="restaurantInfo">
+        <p>THis is where the info of restaurant goes if clicked</p>
+    </div>
+    <!--This is for the votes -->
+     <div id="Voting"> 
+        <div id="Thumbs up">
+            <p>try to put image of thumbs up if clicked</p>
+        </div>
+        <div id="Thumbs Down">
+            <p>try to put image of thumbs down if clicked</p>
+        </div>
+    </div>  
+
+</body>
+</html>
