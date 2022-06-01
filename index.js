@@ -1,12 +1,12 @@
 const init = () => {
     fetch("http://localhost:3000/restaurants")
         .then(response => response.json())
-        .then(data => displayRestaurants(data))
+        .then((data) => (displayRestaurants(data)))
 }
 
 function displayRestaurants(restaurants) {
-    
-    const restaurantMenu = document.getElementById('restaurant-menu')
+
+    const restaurantMenu = document.querySelector('#restaurant-menu')
     
     restaurants.forEach(restaurant => {
         const image = document.createElement('img')
