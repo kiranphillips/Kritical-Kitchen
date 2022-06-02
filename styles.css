@@ -17,7 +17,7 @@ header {
   padding: 0.5rem;
   width: 100%;
   color: white;
-  background-color: black;
+  background-color: #000000;
 }
 
 #restaurant-menu {
@@ -49,7 +49,17 @@ header {
   padding: 0.25rem 5rem 0.25rem 1rem;
 }
 
+
+
+
 .thumbs-up-image,
 .thumbs-down-image {
   height: 100px
+}
+
+.logo {
+  flex: 0 1 auto;
+  height: 150px;
+  margin-right: 0.5rem;
+  size: 50%
 }
