@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="utf-8" />
     <title>Kritical Kitchen</title>
-  </head>
-  <body>
-    <h1>Kritical Kitchen</h1>
-    <script src="index.js"></script>
-  </body>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<header>
+ <img class="logo" src="./images/logo.png" alt="Kritical Kitchen"/>
+ <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Restaurants Contact Info</button>
+</div>
+<div id="myDropdown" class="dropdown-content">
+  <a href="#">Flour and Water</a>
+  <a href="#">Padrecito</a>
+  <a href="#">La Corneta</a>
+  <a href="#">StarBelly</a>
+  <a href="#">Zazie</a>
+  <a href="#">Nopalito</a>
+  <a href="#">Ginza</a>
+  <a href="#">Beretta</a>
+</div>
+</header>
+
+<div id="restaurant-menu">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ <!--Top bar full of images -->
+</div>
+
+<!--Restaurant Info -->
+<div id="restaurant-info">
+    <h2 class="name">You Are the Kritc Now!!</h2>
+    <img class="info-image" src="./images/san-francisco.png" alt="Insert Image Here" />
+    <p class="description"> Click on image in slide to get information</p>
+
+    <div class="row">
+      <label id="experiance">How was your experiance? </label>
+      <div class="column">
+      </div>
+      <div class="column">
+        <form action="">
+          </select>
+          <textarea id="feedback" name="subject" placeholder="share a little you could be reading this next time you pick a place to eat" style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Voting-->
+<h3>Rating:</h3>
+
+<p>
+    <span id="thumbs-up-display">Tell us what you think </span> 
+</p>
+<img class="thumbs-up-image" src="./images/thumbs-up.png" alt="Thumbs Up" />
+
+<p>
+    <span id="thumbs-down-display">Insert rating here</span> 
+</p>
+<img class="thumbs-down-image" src="./images/thumbs-down.png" alt="Thumbs Down" />
+
+</body>
+
+<footer>
+  <p> For further questions please contact either Kiran Phillips, Ikmann Bhullar & Anna Clausen</p>
+  <p><a href="KriticalKitchen:info@KriticalKitchen.com">info@KriticalKitchen.com</a></p>
+</footer>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
