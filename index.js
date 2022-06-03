@@ -25,8 +25,11 @@ function displayRestaurants(restaurants) {
         })
         div.append(image)
         restaurantMenu.appendChild(div)
+        thumbsUp(restaurant)
+        thumbsDown(restaurant)
     })
     showSlides();
+
 }
 let slideIndex = 0;
 
@@ -41,7 +44,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2500); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 function showRestaurantInfo(restaurant) {
@@ -58,4 +61,42 @@ console.log(logSubmit)
 
 form.addEventListener('submit', logSubmit);
 }
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+  function thumbsUp(restaurant) {
+    let currentLikes = (restaurant.likes);
+    const likeButton = document.querySelector(".thumbs-up-image");
+    const thumbsUpDisplay = document.getElementById("thumbs-up-display")
+    likeButton.addEventListener("click", (e)=>{
+       currentLikes++;
+       thumbsUpDisplay.textContent = currentLikes;
+    });
+}
+function thumbsDown(restaurant) {
+    let currentDislikes = (restaurant.dislikes);
+    const dislikeButton = document.querySelector(".thumbs-down-image");
+    const thumbsDownDisplay = document.getElementById("thumbs-down-display")
+    dislikeButton.addEventListener("click", (e)=>{
+       currentDislikes++;
+       thumbsDownDisplay.textContent = currentDislikes;
+    });
+}
+  
 document.addEventListener("DOMContentLoaded", init)
